@@ -13,3 +13,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Nobody wants this
+db/schema.rb
+.ruby-version
