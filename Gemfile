@@ -36,3 +36,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+group :test do
+  gem 'shoulda'
+  gem 'shoulda-context'
+end
