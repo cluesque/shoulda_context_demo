@@ -3,7 +3,7 @@ require 'test_helper'
 class ShouldaContextTest < ActiveSupport::TestCase
   def self.setup_setup_helper
     puts "helper installing setup and teardown hooks"
-    setup { puts "running the setup helper"; @wrapped = true }
+    setup { puts "\nrunning the setup helper"; @wrapped = true }
     teardown{ puts "running the teardown helper"; @wrapped = false }
   end
   context "outer nesting" do
